@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "Poppin", sans-serif;
+    /*line-height: 1.5;*/
+  }
+
+  .body-topbtm {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    /*line-height: 2;*/
+  }
