@@ -1,27 +1,8 @@
-html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-  
   body {
     margin: 0;
     padding: 0;
     background-color: #fff;
     font-family: "Poppin", sans-serif;
-    /*line-height: 1.5;*/
-  }
-
-  .body-top {
-    margin: 0;
-    padding: 0;
-    background-image: #fff;
-    font-family: "Poppins", sans-serif;
-    /*line-height: 2;*/
   }
 
   .navbar-nav > li{
@@ -32,7 +13,7 @@ html {
 
   .maintxt {
     background-image: url(../media/images/img_smoky_earth_unsidedown.png);
-    box-sizing: border-box;
+    font-size : 25px;
     font-family: "inter", sans-serif;
     padding-left: 10px;
     padding-right: 10px;
@@ -41,17 +22,20 @@ html {
     border:2px solid red;
   }
 
-  p{
-    margin:2px;
+  p{ 
+    font-size : 25px;
     border:2px solid red;
   }
 
   .mainimg {
+   /* grid-area: content; */  
     background-image: url(../media/images/img_4_balls.gif);
     box-sizing: border-box;
-    width:30%;
+    width: 30%;
     height: 100%;
     background-size: cover;
     border:2px solid red;
   }
+
+
 
